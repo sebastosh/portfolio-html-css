@@ -252,7 +252,7 @@ footer  ul {
 
   @media all and (min-width: 1500px) {
     .wrap {
-      width:50%;
+      width:45%;
       margin: 0 auto;
       padding: 10%;
     }
