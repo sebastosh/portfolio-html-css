@@ -79,7 +79,7 @@ h1 {
   margin-bottom: 1em;
 }
 
-nav{
+nav {
   width: 100%;
 }
 
@@ -96,7 +96,7 @@ nav li {
 
 section {
   margin: 0 0 1em;
-  font-size: 1.1em
+  font-size: 1.1em;
 }
 
 article {
@@ -278,8 +278,6 @@ footer ul {
     margin: 0 5%;
     font-size: 1.9em;
   }
-
-
 
   footer ul {
     padding: 0 1em;
