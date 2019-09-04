@@ -1,0 +1,121 @@
+body {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  background: #000;
+  margin: 0;
+}
+
+section {
+  height: 100%;
+}
+
+button {
+  font-size: 3em;
+}
+
+
+.scripts-list {
+  padding: 0 60px 5px;
+}
+ul {
+  padding: 5px;
+ 
+}
+
+li {
+  list-style-type: none;
+  padding: 5px;
+  font-size: 2.5em;
+}
+
+
+li button{
+  list-style-type: none;
+  padding: 5px;
+  margin: 0 0 0 20px;
+  font-size: 1em;
+}
+
+
+.edit-div {
+  padding: 0 0px 5px;
+}
+
+
+.script-title {
+  padding: 5px 0 0 5px;
+  font-size: 3em;
+}
+
+.edit-div input {
+  margin: 10px 0 8px;
+  padding: 0px 0 10px 10px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  color: #333;
+  background-color: #e6f3ff;
+  width: 100%;
+  font-size: 3em;
+  line-height: 1.1em;
+}
+
+.buttons-wysiwyg {
+  text-align: right;
+}
+
+.buttons-wysiwyg button {
+  font-size: 1.8em;
+  background-color: #e6f3ff;
+  border: none;
+  margin: 0 0 0 5px;
+}
+
+.ql-toolbar.ql-snow {
+  background-color: #e6f3ff;
+  border: none;
+}
+.ql-container.ql-snow {
+  border: none;
+  background-color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 3em;
+}
+
+.ql-editor {
+  box-sizing: border-box;
+  line-height: 1.42;
+  height: 100%;
+  outline: none;
+  overflow-y: auto;
+  padding: 12px;
+  tab-size: 4;
+  -moz-tab-size: 4;
+  text-align: left;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.ql-container {
+  
+}
+
+.triangle {
+  position: fixed;
+  top: 30%;
+  left: 0;
+  width: 60px;
+  border-bottom: solid 30px rgba(255, 255, 255, 0);
+  border-left: solid 40px white;
+  border-top: solid 30px transparent;
+}
+
+.prompt {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.prompt p {
+  padding: 0 60px 5px;
+    font-size: 5em;
+}
