@@ -24,19 +24,15 @@ body {
 }
 /* Default link styling */
 a:link {
-  color: #2087b7;
+  color: #105b66;
   text-decoration: none;
 }
+
 a:visited {
-  color: #2087b7;
+  color: #105b66;
+  text-decoration: none;
 }
-a:hover,
-a:focus {
-  color: #2087b7;
-}
-a:active {
-  color: #fb0e02;
-}
+
 
 /* ---------------------------------------------------------
        Author's styles
@@ -72,31 +68,40 @@ h1 {
 }
 
 .head {
-  font-size: 1.2em;
-  background-color: rgba(236, 235, 255);
-  border: 1px solid #a6afd1;
-  padding: 1em 1em 0;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
-nav {
+.head p{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  font-size: 1.4em;
+  color: rgba(236, 235, 255);
+  padding: 1em;
+  margin: 0
+}
+
+.nav {
+  background: none;
   width: 100%;
+  font-size: 1.7em;
+  display: flex;
+  justify-content: space-around;
 }
 
-nav ul {
-  padding: 0;
-  margin: 0;
-  text-align: left;
+.nav-item {
+ background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 200%;
+
+  padding: .5em;
 }
 
-nav li {
-  display: inline-block;
-  padding: 15px 0;
+.nav-item a {
+color: white;
 }
+
 
 section {
-  margin: 0 0 1em;
-  font-size: 1.1em;
+  margin: 0;
 }
 
 article {
@@ -178,7 +183,10 @@ footer ul {
 .menu {
   display: flex;
   justify-content: space-between;
+  margin: 30px 0 35px;
 }
+
+
 
 /* ---------------------------------------------------------
      Print styles
@@ -194,7 +202,7 @@ footer ul {
     background-color: #fff;
   }
   /* Hide navigation */
-  nav {
+  .nav {
     display: none;
   }
 
